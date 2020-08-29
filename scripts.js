@@ -28,7 +28,6 @@ function parseJSON(res) {
 }
 
 function updateProfile(response) {
-    console.log(response);
     profile = response.results[0];
     avatar.src = profile.picture.medium;
     fullname.innerHTML =
